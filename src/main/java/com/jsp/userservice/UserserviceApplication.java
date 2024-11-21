@@ -18,7 +18,6 @@ public class UserserviceApplication {
     public RestTemplate getRestTemplate(){
         return new RestTemplate();
     }
-// application
     public static void main(String[] args) {
         SpringApplication.run(UserserviceApplication.class, args);
     }
