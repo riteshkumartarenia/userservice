@@ -80,6 +80,6 @@ public class UserServiceImpl implements UserService {
     public void deleteAllUser() {
         userRepository.deleteAll();
     }
-
+//This is service layer.
 
 }
